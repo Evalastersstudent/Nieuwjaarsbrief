@@ -1,0 +1,183 @@
+body {
+			background-image: url(https://s-media-cache-ak0.pinimg.com/originals/4a/e1/4e/4ae14eb0f5fca85dbd5d701f6d98ae59.jpg);
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			font-family: 'Satisfy', cursive;
+			background-position: right;
+}
+ol {
+      list-style-type: none;
+      margin: 2.5% 5%;
+			padding: 2.5% 5%;
+			width: 50%;
+			background-color: rgba(0, 0, 0, 0.9);
+			border-radius: 50px;
+}
+ol li {
+      counter-increment: myCounter;
+      padding: 7.5% 0 1% 20%;
+      position: relative;
+      color: white;
+      font-size: 2.5em;
+}
+ol li::before {
+      content: counter(myCounter);
+      display: inline-block;
+      text-align: center;
+      font-size: 3em;
+      background-color: white;
+      color: black;
+			font-family: 'Satisfy', cursive;
+      font-weight: 900;
+      padding: 40px 10px 10px 10px;
+      position: absolute;
+      top: 0;
+      left: -40px;
+      line-height: 1.1em;
+			background-image: url(https://s-media-cache-ak0.pinimg.com/originals/19/9a/18/199a1885e8b298463319a74cda0d02bc.jpg);
+			background-size: cover;
+			border-radius: 50%;
+			width: 20%;
+}
+ol p {
+      padding: 0% 0 5% 20%;
+      margin: 0 0 45px 0;
+      position: relative;
+      color: white;
+      font-size: 2.5em;
+}
+.aanspreking {
+			margin: 0% 0% -5% 0%;
+}
+.tekst {
+			margin: -4% 0% 0% 0%;
+}
+
+@media screen and (max-width: 1400px) {
+			ol {
+						width: 40%;
+			}
+			ol li, ol p {
+						font-size: 1.5em;
+			}
+}
+@media screen and (max-width: 1220px) {
+			ol {
+						width: 35%;
+			}
+			ol li {
+			      padding: 5% 0 1% 20%;
+			      font-size: 1.25em;
+			}
+			ol li::before {
+			      padding: 25px 10px 7.5px 10px;
+			      line-height: 1em;
+			}
+			ol p {
+			      padding: 0% 0 7.5% 20%;
+			      margin: 0 0 45px 0;
+			      font-size: 1.25em;
+			}
+}
+@media screen and (max-width: 980px) {
+			ol {
+						width: 25%;
+			}
+			ol li {
+			      padding: 7.5% 0 1% 20%;
+			      font-size: 1em;
+			}
+			ol li::before {
+						font-size: 2em;
+			      padding: 25px 15px 7.5px 15px;
+			      line-height: 1.1em;
+						width: 15%;
+			      left: -30px;
+			}
+			ol p {
+			      padding: 0% 0 2% 20%;
+			      margin: 0 0 10% 0;
+			      font-size: 1em;
+			}
+			.tekst {
+						margin: 0%;
+			}
+}
+@media screen and (max-width: 810px) {
+			ol {
+						width: 75%;
+						margin: 2.5% auto;
+						background-color: rgba(0, 0, 0, 0.65);
+			}
+			ol li {
+			      padding: 5% 0 1% 45%;
+			      font-size: 1.25em;
+			}
+			ol li::before {
+						font-size: 3em;
+			      padding: 40px 15px 10px 15px;
+			      left: 125px;
+			}
+			ol p {
+			      padding: 0% 0 0% 45%;
+			      font-size: 1.25em;
+			}
+			.tekst {
+						margin: 0%;
+						line-height: 1.25em;
+			}
+}
+@media screen and (max-width: 715px) {
+			ol li {
+			      padding: 5% 0 1% 35%;
+			      font-size: 1em;
+			}
+			ol li::before {
+			      line-height: 1.1em;
+						width: 15%;
+			      left: 50px;
+			}
+			ol p {
+			      padding: 0% 0 0% 35%;
+			      margin: 0 0 45px 0;
+			      font-size: 1em;
+			}
+}
+@media screen and (max-width: 615px) {
+			ol li::before {
+						font-size: 2.5em;
+			      padding: 30px 15px 10px 15px;
+						width: 12.5%;
+			}
+			.tekst {
+						margin: -4% 0% 4% 0%;
+			}
+}
+@media screen and (max-width: 525px) {
+			ol li {
+			      padding: 5% 0 1% 25%;
+			}
+			ol li::before {
+			      padding: 25px 15px 10px 15px;
+			      line-height: 1em;
+			      left: 0px;
+			}
+			ol p {
+			      padding: 0% 0 0% 25%;
+			}
+			.tekst {
+						margin: -6% 0% 6% 0%;
+			}
+}
+@media screen and (max-width: 385px) {
+			ol li {
+			      padding: 5% 0 1% 30%;
+			}
+			ol li::before {
+			      padding: 20px 15px 7.5px 15px;
+			      left: 0px;
+			}
+			ol p {
+			      padding: 0% 0 0% 30%;
+			}
+}
