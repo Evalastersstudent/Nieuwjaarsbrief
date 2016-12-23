@@ -4,7 +4,7 @@ body {
 			background-repeat: no-repeat;
 			font-family: 'Satisfy', cursive;
 			background-position: right;
-			background-size: contain;
+			background-size: cover;
 }
 ol {
       list-style-type: none;
